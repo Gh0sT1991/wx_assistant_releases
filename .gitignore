@@ -1,0 +1,83 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+.virtualenv/
+.cursor-tutor/
+
+# Distribution / packaging
+dist/
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.DS_Store
+*.bak
+*.tmp
+*.swp
+*.log
+test.py
+test_*.py
+*_test.py
+
+# Local configuration
+*.env
+credentials/
+.env.local
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Log files
+*.log
+logs/
+
+# Database files
+*.db
+*.sqlite3
+
+# Compiled files
+*.exe
+*.dll
+*.pyd
+*.dylib
+
+# Temporary files
+temp/
+tmp/
+
+# User-specific files
+*.ini
+*.bak
+
+# Don't ignore your specific data files that should be in the repo
+!requirements.txt
+!README.md
+
+# Inno Setup files
+installer/*.exe
+
+# Application specific
+.env
+.venv/
